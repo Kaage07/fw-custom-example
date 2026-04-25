@@ -13,7 +13,7 @@ Gpio getRunningLedPin() {
 
 // 3. Uyarı LED'i (Hata varsa yanar - Check Engine gibi düşün)
 Gpio getWarningLedPin() {
-    return Gpio::Unassigned; // Şimdilik boş bırakalım
+    return Gpio::B5; // Şimdilik boş bırakalım
 }
 
 // 4. ASIL MESELE: Pinleri Görevlendirme
