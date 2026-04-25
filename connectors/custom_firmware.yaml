@@ -5,43 +5,43 @@ info:
 pins:
   # Durum LED'leri
   - pin: A15
-    name: Comms LED
+   # name: Comms LED
     type: output
   - pin: C13
-    name: Running LED
+   # name: Running LED
     type: output
   - pin: B5
-    name: Warning LED
+   # name: Warning LED
     type: output
 
   # Enjektörler
   - pin: B7
-    name: Injector 1
+   # name: Injector 1
     type: injector
   - pin: B8
-    name: Injector 2
+   # name: Injector 2
     type: injector
   - pin: B9
-    name: Injector 3
+   # name: Injector 3
     type: injector
   - pin: E6
-    name: Injector 4
+   # name: Injector 4
     type: injector
 
   # Ateşleme (Bobinler)
   - pin: E4
-    name: Ignition 1 (1-4)
+   # name: Ignition 1 (1-4)
     type: ignition
   - pin: E5
-    name: Ignition 2 (2-3)
+   # name: Ignition 2 (2-3)
     type: ignition
 
   # Sensör Girişleri
   - pin: B1
-    name: Crank Sensor
+   # name: Crank Sensor
     type: trigger
 
   # Çıkışlar/Röleler
   - pin: A8
-    name: Fuel Pump Relay
+   # name: Fuel Pump Relay
     type: output
