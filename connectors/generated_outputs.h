@@ -4,6 +4,4 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS[] = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
 }
