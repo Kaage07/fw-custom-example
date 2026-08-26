@@ -15,7 +15,7 @@ Gpio getWarningLedPin() {
 
 static void setupSdCard() {
 	engineConfiguration->sdCardSpiDevice = SPI_DEVICE_3;
-	engineConfiguration->sdCardCsPin = Gpio::D2;
+	engineConfiguration->sdCardCsPin = Gpio::I2;
 
 	engineConfiguration->is_enabled_spi_3 = true;
 	engineConfiguration->spi3sckPin = Gpio::C10;
