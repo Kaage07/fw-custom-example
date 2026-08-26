@@ -24,5 +24,9 @@ static void setupSdCard() {
 
 }
 void setup_custom_board_overrides() {
+	setupSdCard();
+	engineConfiguration->isSdCardEnabled = true;
 
-}
+	// ... senin injectionPins / auxValves / ignitionPins satırların ...
+
+}   // <-- fonksiyonun en sonunda bu da olmalı
