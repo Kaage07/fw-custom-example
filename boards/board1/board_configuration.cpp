@@ -22,6 +22,7 @@ static void setupSdCard() {
 	engineConfiguration->spi3misoPin = Gpio::C11;
 	engineConfiguration->spi3mosiPin = Gpio::C12;
 
+}
 void setup_custom_board_overrides() {
 
 }
